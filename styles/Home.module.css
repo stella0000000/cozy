@@ -45,6 +45,7 @@
   position: fixed;
   top: -25px;
   right: 5px;
+  color: rgb(249, 191, 153);
   font-weight: 600;
 }
 
@@ -53,6 +54,7 @@
   left: -5px;
   position: absolute;
   font-size: 25px;
+  color: #dca4ff;
 }
 
 .think {
@@ -60,19 +62,22 @@
   top: 5px;
   position: absolute;
   font-size: 25px;
+  color: #dca4ff;
 }
 
-.contribute {
+.share {
   transform: rotate(-270deg);
-  right: -32px;
+  right: -10px;
   position: absolute;
   font-size: 25px;
+  color: #dca4ff;
 }
 
 .cozyThoughts {
   bottom: 5px;
   position: absolute;
   font-size: 25px;
+  color: #dca4ff;
 }
 
 .logo {

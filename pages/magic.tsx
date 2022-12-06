@@ -1,37 +1,28 @@
-import { useState, useEffect } from 'react';
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
-  const [seconds, setSeconds] = useState(0)
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setSeconds(seconds => seconds + 1)
-    }, 3000);
-    return () => clearInterval(interval)
-  }, []);
-  
+export default function Magic() {  
   return (
     <>
       <main className={styles.main}>
         <div className={styles.thought}>
-          We ate vegan hot dogs and drank champagne.
+          <Image src='/mermaid.png' alt={"my best friend is a mermaid princess professor"} width={500} height={500} />
         </div>
 
         <div className={styles.blink}>
           +
         </div>
         <div className={styles.read}>
-          {/* Read */}
+          {/* Notice */}
         </div>
         <div className={styles.think}>
-          {/* think */}
+          {/* capture */}
         </div>
         <div className={styles.share}>
           {/* share */}
         </div>
         <div className={styles.cozyThoughts}>
-          cozy.
+          magic.
         </div>
       </main>
     </>
